@@ -828,7 +828,7 @@ header {
  .navbar-header {
  display:block;
 }
- .workYear {
+ .workYear, .eduYear {
  margin:0 auto;
 }
  .workDetails .rightArea {
