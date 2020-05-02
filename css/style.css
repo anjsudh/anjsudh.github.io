@@ -126,11 +126,14 @@ header {
 	zoom: 1;
 }
 .bannerText h1 {
+	text-transform:none;
 	text-transform:uppercase;
 }
 .bannerText h2 {
-	font-size:34px;
 	text-transform:none;
+	text-transform:uppercase;
+	font-size:55px;
+	padding-bottom: 20px;
 }
 /*------------------------------------
 	3.1 Slide show background control
@@ -139,7 +142,7 @@ header {
 	background:#1b1f2b;
 }
 .cb-slideshow li {
-	opacity:0.5;
+	opacity:0.2;
 	filter:alpha(opacity=50); /* For IE8 and earlier */
 }
 /*---------------------------------------------------------------------------------
@@ -367,6 +370,11 @@ header {
 	color:#fff;
 	position:relative;
 }
+.aboutme img {
+	margin-top: 0px !important;
+	width:80%;
+   }
+
 .aboutme .container {
 	padding-top:85px;
 	padding-bottom:93px;
@@ -895,9 +903,10 @@ header {
  .item p {
  font-size: 36px;
 }
- .aboutme img {
- width:100%;
-}
+.aboutme img {
+	margin-top: 25px !important;
+	width:80%;
+   }
  ul.portfolioContainer li.col-xs-6 {
  width:100%;
 }

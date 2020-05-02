@@ -36,16 +36,6 @@ $(function() {
 
 });
 
-
-
-// for banner height js
-var windowWidth = $(window).width();
-    var windowHeight =$(window).height();
-    $('.banner').css({'width':windowWidth ,'height':windowHeight -"60" });
-	
-	
-
-
 // for portfoli filter jquary
 $(window).load(function(){
     var $container = $('.portfolioContainer');
@@ -98,7 +88,6 @@ $(document).ready(function(e) {
 var index=0;
 $(document).scroll(function(){
 	var top = $('.technical').height()-$(window).scrollTop();
-	console.log(top)
 	if(top<-300){
 		if(index==0){	
 			
